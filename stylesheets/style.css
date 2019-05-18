@@ -2,17 +2,124 @@
 body{
     /* text-align: center; */
 }
-.carousel-inner{
+.navbar {
+    background-color: white;
+    top: 0;
     width: 100%;
-    align-content: center;
+    color: black;
 }
+
+  #myCarousel
+  {
+      padding: 3%;
+  }
+  .navbar a {
+    float: right;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
 .container{
     padding: 1%; 
     max-width: 1240px;   
     padding-bottom: 1%;
 }
+.carousel-inner
+{
+    height : 460px;
+}
+.carousel-caption
+{
+    font-size: 20px;
+}
+.error1{
+    
+}
+.error2
+{
+    
+}
 
+@media only screen and (max-width: 600px) {
 
+    .error1{
+        padding-bottom: 0%;
+    }
+    .error2{
+        padding-bottom: 0;
+    }
+    .button2{
+        padding-bottom: 0%;
+    }
+    .button3{
+        padding-bottom: 0%;
+    }
+  }
+
+  .button {
+    background-color:transparent;
+    border: 2px solid white!important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color:transparent;
+    border: 2px solid white!important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 10% !important;
+  }
+
+  .button3 {
+    background-color:transparent;
+    border: 2px solid white!important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 34% !important;
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .error1{
+        padding-bottom: 0%;
+    }
+    .error2{
+        padding-bottom: 0;
+    }
+    .button2{
+        padding-bottom: 0%;
+    }
+    .button3{
+        padding-bottom: 0%;
+    }
+  }
+  
 .image
 {
     display: block;
