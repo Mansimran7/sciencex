@@ -1,0 +1,295 @@
+
+body{
+    /* text-align: center; */
+}
+.carousel-inner{
+    width: 100%;
+    align-content: center;
+}
+.container{
+    padding: 1%; 
+    max-width: 1240px;   
+    padding-bottom: 1%;
+}
+
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+ 
+}
+
+.text_caption_1
+{
+    padding: 6%;    
+}
+.video_para
+{
+    padding: 6%;
+    padding-left: 1% !important;
+}
+.overlay_space
+{
+    padding : 5%;
+    border-color: white;
+}
+
+.overlay_num
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.overlay_body
+{
+    font-size: 19px;
+}
+#outer-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #2aaaff;
+  }
+
+  /* line 14, ../sass/style.scss */
+  #outer-box #inner-box {
+    
+    height: 100%;
+    width: 100%;
+    transition: opacity .5s;
+  }
+  /* line 25, ../sass/style.scss */
+  #outer-box #inner-box p {
+    color: #fff;
+    font-family: 'arial';
+    text-align: center;
+  }
+  /* line 34, ../sass/style.scss */
+  #outer-box #inner-box {
+    opacity: .9;
+    transition: opacity .5s;
+  }
+.publication
+{
+    color: #183c55;
+    font-size: 21px;
+}
+.text_caption_3
+
+{
+    margin-left: 5%;
+}
+.right-publication
+{
+    background-color: #EDF2F6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding-left: 3%;
+    margin-left: 0%;
+}
+                
+.publication_rows
+{
+    padding: 4%;
+}
+
+.publication_content_heading
+{
+    color: 183c55;
+    padding-top: 4%;
+    padding-bottom: 0.5%;
+}
+
+.publication_content_body
+{
+
+}
+.container_4
+
+{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-left: 1%;
+}
+
+
+.container_5 
+
+{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-left: 1%;
+    
+}
+
+.text_caption_2
+{
+    margin-left: 8%;
+    margin-right: 5%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    background-color:   #d2e0e0;
+}
+
+.page-footer
+{
+    padding : 10%;
+    padding-top: 5% !important;
+    color: #183c55;
+    background-color:#d2e0e0;
+}
+.list-unstyled
+{
+    color: #183c55;
+}
+.sciencex_photo
+{
+    padding: 1%;
+
+}
+.footer_col
+{
+    padding: 2%;
+    font-family: Mina;
+}
+
+a{
+    color: #183c55;
+    font-weight: bold;
+}
+.footer_link
+{
+    padding-top : 5%;
+    padding-bottom: 5%; 
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  
+  .last_container
+  {
+      font-size: 12px;
+  }
+  .last_link
+  {
+      color: #36a4de;
+  }
+
+  
+  
+  .timeline {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    padding: 100px 50px;
+    position: relative;
+  }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: #ddd;
+  }
+  .timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+  }
+  .entry .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+  }
+  .entry .title:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 10px solid grey;
+    background-color: #fff;
+    border-radius: 100%;
+    top: 15%;
+    right: -10px;
+    z-index: 99;
+  }
+  .entry .title h3 {
+    margin: 0;
+    font-size: 120%;
+  }
+  .entry .title p {
+    margin: 0;
+    font-size: 100%;
+  }
+  .entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+  }
+  .entry .body p {
+    line-height: 1.4em;
+  }
+  .entry .body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+  }
+  .entry .body ul {
+    color: #aaa;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .entry .body ul li:before {
+    content: "–";
+    margin-right: .5em;
+  }    
